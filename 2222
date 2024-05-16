@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanzruu's Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .profile {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .profile img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .profile h2 {
+            margin: 10px 0;
+        }
+        .profile p {
+            line-height: 1.6;
+        }
+        .social {
+            margin-top: 20px;
+        }
+        .social a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        .interaction {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .comment-section, .forum-section {
+            margin-top: 20px;
+        }
+        .comment-section h3, .forum-section h3 {
+            margin-bottom: 10px;
+        }
+        .comment-section textarea, .forum-section textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .comment-section button, .forum-section button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            background: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lanzruu's Profile</h1>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <img src="profile-picture.jpg" alt="Lanzruu">
+            <h2>Lanzruu</h2>
+            <p>Hi there! I'm Lanzruu, a passionate gamer who loves exploring new games and sharing my experiences with others. Welcome to my profile page where you can learn more about me and interact with fellow gaming enthusiasts.</p>
+        </div>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+        <div class="interaction">
+            <div class="comment-section">
+                <h3>Leave a Comment</h3>
+                <textarea placeholder="Write your comment here..."></textarea>
+                <button>Submit Comment</button>
+            </div>
+            <div class="forum-section">
+                <h3>Join the Discussion</h3>
+                <textarea placeholder="Start a discussion..."></textarea>
+                <button>Post</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Lanzruu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
